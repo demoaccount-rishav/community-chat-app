@@ -2,6 +2,8 @@
 Realtime chat app with websockets using Node.js, Express and Socket.io with Vanilla JS on the frontend with a custom UI
 ## Usage (_to run in local machine, with node.js already installed_)
 ```
+git clone "https://github.com/demoaccount-rishav/community-chat-app.git"
+cd community-chat-app.git
 npm i
 npm start
 
