@@ -19,3 +19,4 @@ Team Members:
 - Krishna Kishore Mukhopadhyay
 - Rishav Bhowmick
 - Sidhhartha Shaw
+- Sourav Singh
