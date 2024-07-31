@@ -7,13 +7,7 @@ import { userJoin, getCurrentUser, userLeave, getRoomUsers } from './utils/users
 
 const app = express();
 const server = createServer(app);
-const io = new Server(httpServer, {
-  cors: {
-    origin: "https://community-chat-app-sandy.vercel.app/"
-  }
-});
-
-
+const io = new Server(server);
 
 // Set static folder
 app.use(express.static(resolve('public')));
