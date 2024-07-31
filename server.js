@@ -7,7 +7,7 @@ import { userJoin, getCurrentUser, userLeave, getRoomUsers } from './utils/users
 
 const app = express();
 const server = createServer(app);
-const io = new Server(server,{cors:{origin:'*'}})
+const io = new Server(server, { cors: { origin: '*' } })
 
 // Set static folder
 app.use(express.static(resolve('public')));
